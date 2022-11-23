@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/e903bca7a7.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="cal">
+            <div id="screen" >
+                <input type="text" id="prev">
+                <input type="text" id="current" placeholder="0">
+            </div>
+            <button onclick="clr()" class="btn size-2 clr">AC</button>
+            <button onclick="del()" class="btn del">DEL</button>
+            <!-- <button onclick="sqrt()" class="btn"><i class="fa-solid fa-square-root-variable"></i></button> -->
+            <button onclick="calculate('/')" class="btn"><i class="fa-solid fa-divide"></i></button>
+            <button onclick="calculate(7)" class="btn">7</button>
+            <button onclick="calculate(8)" class="btn">8</button>
+            <button onclick="calculate(9)" class="btn">9</button>
+            <button onclick="calculate('*') "  class="btn multi"><i class="fa-solid fa-plus"></i></button>
+            <button onclick="calculate(4)" class="btn">4</button>
+            <button onclick="calculate(5)" class="btn">5</button>
+            <button onclick="calculate(6)" class="btn">6</button>
+            <button onclick="calculate('-')" class="btn"><i class="fa-solid fa-minus"></i></button>
+            <button onclick="calculate(1)" class="btn">1</button>
+            <button onclick="calculate(2)" class="btn">2</button>
+            <button onclick="calculate(3)" class="btn">3</button>
+            <button onclick="calculate('+')" class="btn"><i class="fa-solid fa-plus"></i></button>
+            <button onclick="calculate('.')" class="btn">.</button>
+            <button onclick="calculate(0)" class="btn">0</button>
+            <button onclick="answer()" class="btn size-2"><i class="fa-solid fa-equals"></i></button>
+        </input>
+    </main>
+    <script src="./js/code.js"></script>
+</body>
+</html>
