@@ -28,6 +28,7 @@ main {
     padding: 1rem;
     grid-gap: 0.5rem;
     border-radius: 1.5rem;
+    border: 2px solid aqua;
     
 }
 
@@ -45,17 +46,18 @@ main {
 
 .btn {
     font-size: 2rem;
-    border: 1px solid rgba(0, 255, 255, 0.2);
+    border: 1px solid rgb(0, 255, 255);
     outline: none;
     background-color: rgba(34, 34, 34, 0.2);
     text-align: center;
     border-radius: 1.5rem;
     width: 3rem;
     height: 3rem;
+    color: #fff;
 }
 
 .cal > .btn:hover {
-    color: rgba(0, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.6);
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
 }

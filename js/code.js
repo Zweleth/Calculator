@@ -110,16 +110,23 @@ function del() {
 
 function answer() {
     if (eval(previous.value) == current.value) {
-        
-        current.value = eval(current.value+=lastOp);
         previous.value = current.value+=lastOp;
+        Ans();
+        let operation = eval(current.value)
+        current.value = operation;
+        allowComa = true ;
+        clrPrev = false;
     }
-    previous.value = current.value;
-    Ans();
-    let operation = eval(current.value)
-    current.value = operation
-    allowComa = true ;
-    clrPrev = false;
+    else {
+        previous.value = current.value;
+        Ans();
+        let operation = eval(current.value)
+        current.value = operation
+        allowComa = true ;
+        clrPrev = false;
+    }
+    
+    
     
 
 }
