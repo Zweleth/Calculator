@@ -102,3 +102,8 @@ i {
 .multi i {
     transform: rotateZ(45deg);
 }
+
+#current:focus, #prev:focus {
+    border: none;
+    outline: none;
+}
