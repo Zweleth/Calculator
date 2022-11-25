@@ -14,6 +14,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;background-color: #222;
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.9), rgba( 0, 0, 0, 0.9)), url(/./assets/2423231.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .cal {
@@ -112,74 +117,74 @@ i {
 
 @media screen and (min-width : 720px) {
     .cal {
-        scale: 1.9;
+        scale: 1.75;
     }
 }
 @media screen and (max-width : 720px) {
-    .cal {
-        scale: 1.9;
-
-    }
-}
-
-@media screen and (max-width : 460px) {
     .cal {
         scale: 1.75;
 
     }
 }
 
-@media screen and (max-width : 440px) {
-    .cal {
-        scale: 1.69;
-
-    }
-}
-
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 460px) {
     .cal {
         scale: 1.65;
 
     }
 }
 
+@media screen and (max-width : 440px) {
+    .cal {
+        scale: 1.6;
+
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .cal {
+        scale: 1.55;
+
+    }
+}
+
 @media screen and (max-width : 400px) {
     .cal {
-        scale: 1.58;
+        scale: 1.5;
 
     }
 }
 
 @media screen and (max-width : 380px) {
     .cal {
-        scale: 1.5;
-
-    }
-}
-@media screen and (max-width : 360px) {
-    .cal {
         scale: 1.4;
 
     }
 }
-
-@media screen and (max-width : 340px) {
+@media screen and (max-width : 360px) {
     .cal {
         scale: 1.3;
 
     }
 }
 
+@media screen and (max-width : 340px) {
+    .cal {
+        scale: 1.25;
+
+    }
+}
+
 @media screen and (max-width : 320px) {
     .cal {
-        scale: 1.23;
+        scale: 1.2;
 
     }
 }
 
 @media screen and (max-width : 310px) {
     .cal {
-        scale: 1.2;
+        scale: 1.1;
 
     }
 }
