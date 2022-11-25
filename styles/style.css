@@ -112,39 +112,53 @@ i {
 
 @media screen and (min-width : 720px) {
     .cal {
-        scale: 1.7;
+        scale: 1.9;
     }
 }
-@media screen and (max-width : 719px) {
+@media screen and (max-width : 720px) {
     .cal {
-        scale: 1.6;
+        scale: 1.9;
 
     }
 }
 
 @media screen and (max-width : 460px) {
     .cal {
-        scale: 1.6;
+        scale: 1.75;
+
+    }
+}
+
+@media screen and (max-width : 440px) {
+    .cal {
+        scale: 1.69;
+
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .cal {
+        scale: 1.65;
 
     }
 }
 
 @media screen and (max-width : 400px) {
     .cal {
-        scale: 1.5;
+        scale: 1.58;
 
     }
 }
 
 @media screen and (max-width : 380px) {
     .cal {
-        scale: 1.4;
+        scale: 1.5;
 
     }
 }
 @media screen and (max-width : 360px) {
     .cal {
-        scale: 1.36;
+        scale: 1.4;
 
     }
 }
