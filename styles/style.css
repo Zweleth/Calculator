@@ -109,3 +109,36 @@ i {
     border: none;
     outline: none;
 }
+
+@media screen and (min-width : 720px) {
+    .cal {
+        scale: 1.7;
+    }
+}
+@media screen and (max-width : 719px) {
+    .cal {
+        scale: 1.6;
+
+    }
+}
+
+@media screen and (max-width : 460px) {
+    .cal {
+        scale: 1.6;
+
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .cal {
+        scale: 1.2;
+
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .cal {
+        scale: 1.15;
+
+    }
+}
