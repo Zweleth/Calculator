@@ -92,6 +92,9 @@ let addToSumMin = (num) => {
 
 let addToSumMul = (num) => {
     allowOp = isLastOp();
+    // if (allowOp === false) {
+    //     alert(current.)
+    // }
     if (allowOp === true) {
         current.value += num;
         allowComa = true ;
@@ -100,6 +103,7 @@ let addToSumMul = (num) => {
         lastOp = "";
         lastOp += num;
     }
+    
     
 }
 
@@ -154,9 +158,6 @@ function answer() {
 
 }
 
-function sqrt() {
-
-}
 
 function countOps() {
     let count = 0;
@@ -166,7 +167,7 @@ function countOps() {
                 count++;
             }
         }    
-    }
+    } 
     return (count);
 }
 
@@ -192,7 +193,7 @@ function isLastOp() {
     if (count === 0) {
         return true;
     }
-    else{
+    if (count > 0){
         return false;
     }
 }

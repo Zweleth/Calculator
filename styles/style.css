@@ -86,6 +86,8 @@ main {
 }
 
 #current {
+    overflow: hidden;
+    word-wrap: break-word;
     height: 60%;
     width: 100%;
     background: none;
